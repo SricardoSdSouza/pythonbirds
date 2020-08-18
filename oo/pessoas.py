@@ -13,7 +13,6 @@ if __name__ == '__main__':
     ricardo = Pessoa(moacir, nome='ricardo')
     # em class não precisa passar o atributo como parâmetro
     #vamos exemplificar com o id do objeto
-    print(p.nome)
     print(Pessoa.cumprimentar(ricardo))
     print(id(ricardo))
     print(ricardo.cumprimentar())
