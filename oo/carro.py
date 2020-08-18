@@ -109,7 +109,7 @@ class Carro:
         self.direcao.girar_a_esquerda()
 
 NORTE = 'Norte'
-SUL  'Sul'
+SUL = 'Sul'
 LESTE ='Leste'
 OESTE = 'Oeste'
 class Direcao:
