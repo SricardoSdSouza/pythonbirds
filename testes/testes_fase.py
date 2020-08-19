@@ -102,7 +102,11 @@ class FaseTestes(TestCase):
 
     def teste_acabou_sem_porcos(self):
         fase = Fase()
+<<<<<<< HEAD
         self.assertEqual(VITORIA, fase.status)
+=======
+        self.assertEqual(VITORIA, fase.status)
+>>>>>>> b14087cc5abcf60f02f5ffe434f4a69196fddb15
 
     def teste_acabou_com_porcos_e_passaros(self):
         fase = Fase()
@@ -115,6 +119,7 @@ class FaseTestes(TestCase):
 
         for ator in porcos + passaros:
             ator.status = DESTRUIDO
+<<<<<<< HEAD
         self.assertEqual(VITORIA, fase.status)
 
         fase.adicionar_obstaculo(Obstaculo())
@@ -123,11 +128,25 @@ class FaseTestes(TestCase):
 
         fase.adicionar_porco(PorcoFake())
         self.assertEqual(DERROTA, fase.status,
+=======
+        self.assertEqual(VITORIA, fase.status())
+
+        fase.adicionar_obstaculo(Obstaculo())
+        self.assertEqual(VITORIA, fase.status(),
+                         'Obstáculo não interfere no fim do jogo')
+
+        fase.adicionar_porco(PorcoFake())
+        self.assertEqual(DERROTA, fase.status(),
+>>>>>>> b14087cc5abcf60f02f5ffe434f4a69196fddb15
                          'Com Porco ativo e sem pássaro para lançar, o jogo '
                          'deveria acabar')
 
         fase.adicionar_passaro(PassaroFake())
+<<<<<<< HEAD
         self.assertEqual(EM_ANDAMENTO, fase.status,
+=======
+        self.assertEqual(EM_ANDAMENTO, fase.status(),
+>>>>>>> b14087cc5abcf60f02f5ffe434f4a69196fddb15
                          'Com Porco ativo e com pássaro para lançar, o jogo '
                          'não deveria acabar')
 

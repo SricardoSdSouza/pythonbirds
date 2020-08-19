@@ -61,11 +61,8 @@ class Fase():
         """
         self._passaros.extend(passaros)
 
-<<<<<<< HEAD
-    @property
-=======
-    @property
->>>>>>> b14087cc5abcf60f02f5ffe434f4a69196fddb15
+   # @property
+
     def status(self):
         """
         Método que indica com mensagem o status do jogo
