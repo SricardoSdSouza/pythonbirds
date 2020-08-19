@@ -14,7 +14,7 @@ a direcção terá as seguintes responsabilidades de controlar a direção. Ela 
 O   L
   S
     Exemplo:
-    >>> # Testando motor
+     >>># Testando motor
     >>> motor =motor()
     >>> motor.velocidade
     0
@@ -33,7 +33,7 @@ O   L
     >>> motor.frear()
     >>> motor.velocidade
     0
-    >>> # Testando Direcao
+    >>># Testando Direcao
     >>> direcao = Direcao()
     >>>direcao.valor
     'Norte'
