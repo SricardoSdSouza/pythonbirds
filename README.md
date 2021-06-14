@@ -208,3 +208,5 @@ Contudo o Estevão Fonseca fez um versão com essa biblioteca, confira o projeto
 <https://github.com/estevaofon/angry-birds-python>
 
 Ele também colocou esse [vídeo no Youtube](https://www.youtube.com/watch?v=B7G5JtCFepE). 
+
+Achei muito bom o curso
